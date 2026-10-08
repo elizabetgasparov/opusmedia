@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPUS MEDIA</title>
+    <style>
+        /* Postavlja stranicu preko cijelog ekrana, uklanja razmake i stavlja bijelu pozadinu */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Stil za zlatni tekst u centru */
+        .centar-tekst {
+            font-size: 4rem; /* Veličina slova, prilagođava se ekranu */
+            font-weight: bold; /* Podebljana slova */
+            color: #D4AF37; /* Elegantna metalik zlatna boja */
+            letter-spacing: 4px; /* Blagi razmak između slova za moderan izgled */
+            text-align: center;
+            text-transform: uppercase; /* Sva slova su velika */
+        }
+
+        /* Prilagodba za mobitele da tekst ne bude prevelik */
+        @media (max-width: 600px) {
+            .centar-tekst {
+                font-size: 2.5rem;
+                letter-spacing: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="centar-tekst">OPUS MEDIA</div>
+
+</body>
+</html>
